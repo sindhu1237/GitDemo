@@ -10,3 +10,9 @@ git config -g user.name Sindhu.Rudraboina
 git config -g user.email sindhu.rudraboina@gmail.com
 
 git status
+
+--branching
+git branch --> shows current branch + available branches
+git branch engineSizeComparator  --> creates new branch
+
+git checkout engineSizeComparator  --> moving from one branch to another branch(engineSizeComparator)

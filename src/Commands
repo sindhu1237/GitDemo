@@ -1,0 +1,12 @@
+git init
+-- project level
+git config user.name Sindhu.Rudraboina
+git config user.email sindhu.rudraboina@gmail.com
+git config user.name
+git config user.email
+
+-- globally for entire system
+git config -g user.name Sindhu.Rudraboina
+git config -g user.email sindhu.rudraboina@gmail.com
+
+git status

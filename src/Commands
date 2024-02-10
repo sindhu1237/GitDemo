@@ -29,3 +29,9 @@ In general its only 1 remote repo per local repo
 "name of remote repo[key]"  ->  "link"
 
 key -> origin
+
+
+--git remote
+git remote add origin <link>
+git remote add <key> <link>
+git push origin branchName --> upload

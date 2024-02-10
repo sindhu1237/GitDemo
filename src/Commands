@@ -35,3 +35,24 @@ key -> origin
 git remote add origin <link>
 git remote add <key> <link>
 git push origin branchName --> upload
+
+git fetch -> download
+git pull -> download, update your code [ merge the remote changes into local ]
+
+Downloading the git repo -> very first time -> git clone <link>
+
+Task
+0. fork
+1. git clone -> forked repo
+2. create a new feature branch
+3. Add a new comparator -> maxSpeed
+4. Push the new branch
+5. Create a PR
+
+Let's imagine -> remote : origin, branch : master
+git push origin master
+git push origin branchName
+
+Default upstream -> git push -u origin master
+default -> remote : origin, branch : master
+git push [Internally, git push origin master]

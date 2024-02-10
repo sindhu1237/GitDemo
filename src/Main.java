@@ -9,10 +9,10 @@ public class Main {
         // Press Opt+Enter with your caret at the highlighted text to see how
         // IntelliJ IDEA suggests fixing it.
         System.out.println("Car class demo");
-        Car c1 = new Car(100000, 1200);
-        Car c2 = new Car(200000, 1000);
-        Car c3 = new Car(300000, 800);
-        Car c4 = new Car(400000, 600);
+        Car c1 = new Car(100000, 1200, 80);
+        Car c2 = new Car(200000, 1000, 100);
+        Car c3 = new Car(300000, 800, 120);
+        Car c4 = new Car(400000, 600, 140);
         List<Car> carList = new ArrayList<>(Arrays.asList(c4, c2, c1, c3));
         carList.sort(new CarPriceComparator());
         System.out.println(carList);
